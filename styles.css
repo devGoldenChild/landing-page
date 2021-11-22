@@ -92,17 +92,26 @@ body {
   margin-bottom: 20px;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-secondary {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 10px 40px;
   border-radius: 10px;
-  color: #da4453;
-  background-color: #fdcb6e;
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 1.2px;
+}
+
+.btn-primary {
+  color: #da4453;
+  background-color: #fdcb6e;
+}
+
+.btn-secondary {
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 .header-img {
@@ -195,4 +204,40 @@ body {
   margin-top: 20px;
   font-size: 28px;
   font-weight: bold;
+}
+
+/* CTA SECTION */
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.cta-card {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0;
+  border-radius: 10px;
+  /* background-color: #0984e3; */
+  background-color: #6c5ce7;
+  color: #f2f2f2;
+}
+
+.cta-card-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-card-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.cta-card-text {
+  font-size: 18px;
+  font-weight: 300;
+  color: #ccc;
 }
