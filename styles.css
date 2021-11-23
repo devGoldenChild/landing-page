@@ -241,3 +241,19 @@ body {
   font-weight: 300;
   color: #ccc;
 }
+
+/* FOOTER */
+.footer {
+  padding: 30px 15%;
+  background-color: #222f3e;
+  color: #f2f2f2;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  word-spacing: 2px;
+  font-size: 14px;
+}
